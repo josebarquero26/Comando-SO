@@ -45,6 +45,8 @@
 | file | Me da el formato del archivo |file Prueba.txt |
 | whoami| Me da el nombre del usuario |whoami |
 | kill | Cierra los programas de manera manual | kill-9$SPID |
+| shutdown now | Apaga la maquina | shutdown now   |
+| reboot | Reinicia la maquina | sudo reboot   |
 | sudo useradd | Crea un usuario nuevo | sudo useradd username |
 | uname | Da la informacion detallada de la maquina| uname |
 | top | Como un terminal equivalente al Administrador de tareas en Windows | top |
@@ -52,4 +54,31 @@
 | hostname -l | Sirve para conocer el nombre del host/red | hostname -l  |
 | curl | Muestra el contenido de una página | curl -O http://testdomain.com/testfile.tar.gz |
 | scp | Es un protocolo de transferencia de archivos en red que permite la transferencia de archivos fácil y segura entre un host remoto y uno local| scp texto.txt jbarquerog653@pegarIp:/home/jbarquerog653/Semana09/texto3.txt |
+| wc | Realiza conteo de palabras, letras, lineas en archivos | wc ideas.txt excerpt.txt   |
+| docker pull | Obtiene imagenes de Docker Hub | docker pull ubuntu  |
+| docker rename | Permite cambiar el nombre del contenedor | docker rename my_container my_new_container  |
+| docker create | Crea contenedores pero no los inicia | docker create ubuntu  |
+| docker run | Crea contenedores y los inicia | docker run --name test -it debian  |
+| docker rm | Borra contenedores | docker rm gnix  |
+| docker update | Actualiza contenedores | dockerupdate gnix  |
+| docker start| Inicia contenedores | docker start ubuntu  |
+| docker stop | Detiene contenedores | docker stop gnix  |
+| docker restart | Detiene e inicia un contenedor | docker restart gnix  |
+| docker pause | Pausa contenedores | docker pause gnix  |
+| docker unpause | Reanuda contenedores | docker unpause gnix  |
+| docker wait | Bloquea hasta que un contenedor corriendo se detiene |  docker wait my_container  |
+| docker pause | Pausa contenedores | docker pause gnix  |
+| docker ps -a | Da una lista de todos los contenedores | docker ps -a |
+| docker port | Muestra el puerto publico de un contenedor | docker port gnix  |
+| docker inspects | Obseva toda la informacion de un contendor | docker inspects gnix  |
+| docker stats | Muestra las estadisticas de recursos usados por un contendor | docker stats gnix  |
+
+
+
+
+
+
+
+
+
 
